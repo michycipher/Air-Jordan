@@ -295,8 +295,15 @@ main {
         bottom: 100px;
         right: 0;
         margin: 0;
-    } */
+    } */    
+}
 
+@media screen and (max-width: 970px) {
+.main-text {
+    width: 80%;
+    }
+    .watermark {
+    font-size: 80px;
 }
 
 @media screen and (max-width: 939px) {
