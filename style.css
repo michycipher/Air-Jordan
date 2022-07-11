@@ -88,9 +88,11 @@ h1 {
     border-radius: 50px;
     text-transform: uppercase;
 }
+
 .solid-btn:hover {
-    border: red;
+    border: 2px solid red;
     background-color: transparent;
+    color: red; 
 }
 
 .light-btn {
@@ -102,6 +104,11 @@ h1 {
     padding: 15px 46px;
     /* TOP & BOTTOM HAS 18PX WHILE LEFT & RIGHT HAS 48PX  OF THE BUTTON*/
     opacity: 0.5;
+}
+
+.light-btn:hover {
+    border: none;
+    background-color: red;
 }
 
 .main-img {
