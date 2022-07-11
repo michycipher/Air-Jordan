@@ -88,6 +88,10 @@ h1 {
     border-radius: 50px;
     text-transform: uppercase;
 }
+.solid-btn:hover {
+    border: red;
+    background-color: transparent;
+}
 
 .light-btn {
     border: 2px solid red;
