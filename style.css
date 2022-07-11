@@ -295,18 +295,7 @@ main {
     .shoe {
         transform: rotate(-30deg);
     }
-
-    /* .watermark {
-        font-size: 100px;
-        font-weight: 900;
-        text-transform: uppercase;
-        opacity: 0.04;
-        position: absolute;
-        left: 200px;
-        bottom: 100px;
-        right: 0;
-        margin: 0;
-    } */    
+  
 }
 
 @media screen and (max-width: 970px) {
@@ -317,7 +306,7 @@ main {
     font-size: 80px;
 }
 
-@media screen and (max-width: 939px) {
+@media screen and (max-width: 1017px) {
 
     .watermark,
     .main-img, .middle-circle {
